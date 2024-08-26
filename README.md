@@ -12,3 +12,6 @@
 ## running instructions 
 - First, run the LoadArrowFileRunner to load the entities to the pgvector database. 
 - Then, run the CreateAndSaveTripletsRunner to create the triplets and save them to the pgvector database.
+
+## todo:
+- upload the resulting db to huggingface.
