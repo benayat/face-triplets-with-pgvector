@@ -15,9 +15,7 @@ import org.hibernate.type.SqlTypes;
 @Setter
 @Getter
 @NoArgsConstructor
-@Table(name = "LableToEmbedding", indexes = {
-        @Index(name = "idx_face_embedding", columnList = "face_embedding")
-})
+@Table(name = "LableToEmbedding")
 public class LabelToEmbedding {
     @EmbeddedId
     private LabelToEmbeddingId id;

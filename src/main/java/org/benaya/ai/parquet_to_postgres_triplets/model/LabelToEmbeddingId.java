@@ -12,6 +12,6 @@ import java.io.Serializable;
 @Setter
 @EqualsAndHashCode
 public class LabelToEmbeddingId implements Serializable {
-    private Integer label;
+    private Long label;
     private String path;
 }

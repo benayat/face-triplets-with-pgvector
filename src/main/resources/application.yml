@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:
+      parquet_to_postgres_triplets
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${SPRING_DATASOURCE_USERNAME:postgres}
+    password: ${SPRING_DATASOURCE_PASSWORD:postgres}
+arrow:
+  folder-path: "src/main/resources/arrow_files"
