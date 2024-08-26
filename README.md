@@ -7,7 +7,7 @@
 ## requirements
 - conda 4.7.1 with python3.12 for running the scripts.
 - jdk-22.
-- docker+docker compose for running the pgvector database.
+- docker+docker-compose for running the pgvector database.
 
 ## running instructions 
 - First, run the LoadArrowFileRunner to load the entities to the pgvector database. 
